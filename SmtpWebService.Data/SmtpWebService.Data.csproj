@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SmtpWebService.Core\SmtpWebService.Core.csproj" />
+    <ProjectReference Include="..\SmtpWebService.Domain\SmtpWebService.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Auth\" />
+    <Folder Include="Services\" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29609.76
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmtpWebService.Api", "SmtpWebService.Api\SmtpWebService.Api.csproj", "{7A90ED46-6115-4163-9A16-66D6D2DBB17D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmtpWebService.Core", "SmtpWebService.Core\SmtpWebService.Core.csproj", "{48557180-19FE-44C3-ABD9-E2E05A74055B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmtpWebService.Data", "SmtpWebService.Data\SmtpWebService.Data.csproj", "{8ADB216F-B343-4BFE-B205-ED3A8BCFE0F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmtpWebService.DependencyInjection", "SmtpWebService.DependencyInjection\SmtpWebService.DependencyInjection.csproj", "{85CDC5A2-033B-48A4-895C-3305E1073033}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmtpWebService.Domain", "SmtpWebService.Domain\SmtpWebService.Domain.csproj", "{038013EA-A029-45E5-96B6-C3BEEAAD5FA6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A90ED46-6115-4163-9A16-66D6D2DBB17D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A90ED46-6115-4163-9A16-66D6D2DBB17D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A90ED46-6115-4163-9A16-66D6D2DBB17D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A90ED46-6115-4163-9A16-66D6D2DBB17D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48557180-19FE-44C3-ABD9-E2E05A74055B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48557180-19FE-44C3-ABD9-E2E05A74055B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48557180-19FE-44C3-ABD9-E2E05A74055B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48557180-19FE-44C3-ABD9-E2E05A74055B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8ADB216F-B343-4BFE-B205-ED3A8BCFE0F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8ADB216F-B343-4BFE-B205-ED3A8BCFE0F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8ADB216F-B343-4BFE-B205-ED3A8BCFE0F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8ADB216F-B343-4BFE-B205-ED3A8BCFE0F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85CDC5A2-033B-48A4-895C-3305E1073033}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85CDC5A2-033B-48A4-895C-3305E1073033}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85CDC5A2-033B-48A4-895C-3305E1073033}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85CDC5A2-033B-48A4-895C-3305E1073033}.Release|Any CPU.Build.0 = Release|Any CPU
+		{038013EA-A029-45E5-96B6-C3BEEAAD5FA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{038013EA-A029-45E5-96B6-C3BEEAAD5FA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{038013EA-A029-45E5-96B6-C3BEEAAD5FA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{038013EA-A029-45E5-96B6-C3BEEAAD5FA6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5A253EA3-828B-4FB7-B7AD-0F6FBEFC1A00}
+	EndGlobalSection
+EndGlobal
