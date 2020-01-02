@@ -4,6 +4,8 @@ using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using SmtpWebService.Data.Services;
+using SmtpWebService.Domain.Services;
 
 namespace SmtpWebService.DependencyInjection
 {
@@ -28,6 +30,8 @@ namespace SmtpWebService.DependencyInjection
         public static void ConfigureContainer(IInjectionScope scope, IConfiguration configuration)
         {
             scope.Configure(c => c.ExportInstance(configuration).As<IConfiguration>());
+
+            scope.Configure(c => c.Export<MailService>().As<IMailService>());
         }
 
         public T Get<T>()

@@ -11,7 +11,6 @@
 
   <ItemGroup>
     <Folder Include="Auth\" />
-    <Folder Include="Services\" />
   </ItemGroup>
 
 </Project>

@@ -6,6 +6,10 @@ namespace SmtpWebService.Core.ExceptionError
 {
     public enum ExceptionTerm
     {
-
+        SendMessageFailure,
+        NullAddressFromFailure,
+        NullAddressToFailure,
+        NullPasswordFailure,
+        UserAuthenticationError
     }
 }
