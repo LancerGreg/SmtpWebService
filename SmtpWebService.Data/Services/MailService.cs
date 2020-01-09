@@ -30,6 +30,7 @@ namespace SmtpWebService.Data.Services
             {
                 mailMessage.Subject = message.Text;
                 mailMessage.Body = message.Body;
+                mailMessage.IsBodyHtml = true;
 
                 smtp.Host = "smtp.gmail.com";
                 smtp.Port = 587;
